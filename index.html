@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<title>Alphia Dev丨It's the shards of the past that hurt the most</title>
+		<link rel="stylesheet" href="./style.css" />
+		<meta
+			name="description"
+			content="Alphia Dev,WishMeLz,WishMeLz-home,It's the shards of the past that hurt the most。" />
+		<meta
+			name="keywords"
+			content="Alphia Dev,WishMeLz,It's the shards of the past that hurt the most,wish,webgl" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+		<script type="text/javascript" src="assets/dat.gui.min.js"></script>
+		<script>
+			window.ga = window.ga || function () {};
+		</script>
+	</head>
+	<body>
+		<canvas></canvas>
+		<div class="wrap">
+			<div class="main">
+				<h1>Alphia Dev</h1>
+				<h2>It's the shards of the past that hurt the most</h2>
+			</div>
+
+			<nav class="social-links" aria-label="Social links">
+				<a
+					class="social-btn telegram"
+					href="https://t.me/xyligan_shgsh"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="Telegram">
+					<i class="fa-brands fa-telegram"></i>
+				</a>
+				<a
+					class="social-btn github"
+					href="https://github.com/xyligan-gp/"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="GitHub">
+					<i class="fa-brands fa-github"></i>
+				</a>
+				<a
+					class="social-btn discord"
+					href="https://discord.com/users/533347075463577640"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="Discord">
+					<i class="fa-brands fa-discord"></i>
+				</a>
+				<a
+					class="social-btn telegram"
+					href="https://csdevs.net"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label="Website">
+					<i class="fa-solid fa-globe"></i>
+				</a>
+			</nav>
+
+			<footer class="site-footer">
+				<div class="footer-content">
+					<span class="brand">
+						©
+						<time id="year" datetime="2026">2026</time>
+						Alphia Dev
+					</span>
+				</div>
+			</footer>
+		</div>
+		<script src="assets/script.js"></script>
+	</body>
+	<script>
+		const y = document.getElementById('year');
+		if (y) {
+			const now = new Date().getFullYear();
+			y.textContent = now;
+			y.setAttribute('datetime', String(now));
+		}
+	</script>
+</html>
